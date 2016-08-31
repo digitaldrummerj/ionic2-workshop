@@ -1,0 +1,48 @@
+.reveal .slides section .fragment.current-only {
+	opacity: 1;
+	visibility: visible;
+	display: none;
+}
+
+.reveal .slides section .fragment.current-only.current-fragment {
+	display: block;
+}
+
+.line {
+	display: block;
+}
+
+.line.focus {
+	border: solid 2px red;
+	/*padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;*/
+}
+
+.reveal table {
+	width: 100%;
+}
+
+.reveal table td,
+.reveal table th {
+	padding: 25px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.reveal pre code {
+	padding: 1.2em;
+}
+
+.reveal .callout {
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 2em;
+}
+
+.reveal .callout * {
+	text-shadow: .05em .05em 1px black;
+}
+
+.reveal .fake-list {
+	list-style: none;
+}
